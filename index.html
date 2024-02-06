@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Chatbot de Preguntas</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+        }
+
+        /* Estilos para el contenedor del chat */
+        #chat-container {
+            max-width: 800px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        /* Estilos para los mensajes */
+        .message {
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .user-message {
+            text-align: right;
+        }
+
+        .bot-message {
+            text-align: left;
+        }
+
+        /* Estilos para los iconos */
+        .icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        /* Estilos para los mensajes de texto */
+        .text-message {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+
+        /* Estilos para el botón de envío */
+        #chat-form {
+            display: flex;
+            align-items: center;
+        }
+
+        #pregunta {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        #chat-form button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+
+        #chat-form button:hover {
+            background-color: #0056b3;
+        }
+
+        #loading-gif {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chatbot de Preguntas</h1>
+    <div id="chat-container">
+        <!-- Ejemplos de conversación -->
+        <div class="message user-message">
+        </div>
+
+        <div class="message bot-message">
+        </div>
+
+        <!-- Agrega más mensajes de conversación aquí -->
+    </div>
+    <div id="loading-gif">
+        <img src="loading.gif" alt="Cargando" width="60">
+    </div>
+    <form id="chat-form">
+        <input type="text" id="pregunta" name="pregunta" required placeholder="Escribe tu pregunta aquí">
+        <button type="submit">Enviar</button>
+        <a href="?reset=1">Reiniciar Conversación</a>
+    </form>
+    <button id="limpiar-session" type="button">Limpiar Sesión</button>
+
+
+
+    <div class="conversacion">
+        <!-- Aquí se mostrarán los mensajes -->
+    </div>
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatForm = document.getElementById("chat-form");
+        const loadingGif = document.getElementById("loading-gif");
+
+        chatForm.addEventListener("submit", function (e) {
+            e.preventDefault();
+            const pregunta = document.getElementById("pregunta").value;
+
+            // Mostrar GIF de carga
+            loadingGif.style.display = "block";
+
+            // Ocultar GIF de carga cuando se reciba la respuesta
+            const hideLoadingGif = () => {
+                loadingGif.style.display = "none";
+            };
+
+            // Agregar mensaje del usuario al chat
+            chatContainer.innerHTML += `
+                <div class="message user-message">
+                    <img src="user-icon.png" alt="Bot Icon" class="icon">
+                    <p class="text-message">${pregunta}</p>
+                </div>
+            `;
+
+            // Realizar la solicitud al servidor
+            fetch("chatgpt.php", {
+                method: "POST",
+                body: new URLSearchParams({ pregunta }),
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                },
+            })
+            
+                .then((response) => response.text())
+                .then((respuesta) => {
+                    // Agregar la respuesta del bot al chat
+                    chatContainer.innerHTML += `
+                        <div class="message bot-message">
+                            <img src="bot-icon.png" alt="Bot Icon" class="icon">
+                            <p class="text-message">${respuesta}</p>
+                        </div>
+                    `;
+
+                    // Ocultar GIF de carga
+                    hideLoadingGif();
+
+                    // Limpiar el campo de entrada
+                    document.getElementById("pregunta").value = "";
+                })
+                .catch(() => {
+                    // En caso de error, también ocultar el GIF de carga
+                    hideLoadingGif();
+                });
+        });
+        const limpiarSesionButton = document.getElementById("limpiar-session");
+    
+    limpiarSesionButton.addEventListener("click", function() {
+        // Realiza una solicitud al servidor para limpiar la sesión
+        fetch("chatgpt.php?limpiar=1", {
+            method: "GET"
+        })
+        .then(response => response.text())
+        .then(data => {
+            // Comprueba si la sesión se ha limpiado
+            if (data === "Sesión limpiada") {
+                alert("La sesión se ha limpiado con éxito.");
+            } else {
+                alert("Hubo un problema al limpiar la sesión.");
+            }
+        })
+        .catch(error => {
+            alert("Error al comunicarse con el servidor.");
+        });
+    });
+    </script>
+</body>
+</html>
