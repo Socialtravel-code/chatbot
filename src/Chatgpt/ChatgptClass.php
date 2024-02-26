@@ -18,7 +18,6 @@ class ChatgptClass
 
     function __construct($inputusuario, $palabra)
     {
-
         $this->getDotenv();
         $this->apiKey = $_ENV['APIKEY'];
         $this->helper = new Helper();
@@ -27,8 +26,6 @@ class ChatgptClass
         $this->respuestaArmada = $this->helper->consultaReplace($this->meta);
         $this->retornaJson($inputusuario, $this->respuestaArmada);
         //$this->crearJsonChat($this->respuestaArmada." ".$inputusuario);
-
-
         //$this->crearJsonChat($this->apiKey, $pregunta);
     }
 
