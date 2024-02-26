@@ -1,6 +1,6 @@
 vendor/
-.env
-log/dberror.log
+/.env
+**/dberror.log
 
 
 
