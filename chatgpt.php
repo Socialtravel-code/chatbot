@@ -1,5 +1,5 @@
 <?php
-
+date_default_timezone_set('America/Argentina/Mendoza');
 header('Content-Type: text/html; charset=UTF-8');
 require 'vendor/autoload.php';
 use Chatbot\Chatgpt\ChatgptClass;//declaro la clase Chatgpt que es la encargada de hacer las consultas a la API de openAI
@@ -19,6 +19,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {//este método viene de la vesion an
          
          //var_dump($busqueda->showDataBases());   
          //$intencionDetectada = true;
+         $inputUsuario = mb_convert_encoding($inputUsuario, "UTF-8");
+         //die($inputUsuario);
          $reserva = new ChatgptClass($inputUsuario,"reservaciones");//la clase chatgptclass es el punto de inicio de esta aplicacion 
          
       }

@@ -1,2 +1,6 @@
 vendor/
+.env
+log/dberror.log
+
+
 

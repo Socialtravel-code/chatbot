@@ -351,3 +351,339 @@ Date: Feb 3 2024 - 0:02:27 ---- Error: Call to undefined function Chatbot\Databa
 Date: Feb 3 2024 - 0:03:24 ---- Error: Call to undefined function Chatbot\Database\compararVista()
 ---En la Linea: '58' 
 ---Clase Chatbot\Database\ControladorBusqueda
+Date: Feb 6 2024 - 22:42:28 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 6 2024 - 22:46:38 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 6 2024 - 22:48:13 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 6 2024 - 22:56:32 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 6 2024 - 22:57:18 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 6 2024 - 22:57:59 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 6 2024 - 22:57:59 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 6 2024 - 22:58:00 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 6 2024 - 22:58:28 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 6 2024 - 22:58:28 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 6 2024 - 22:58:29 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 6 2024 - 23:09:01 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 6 2024 - 23:09:02 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 6 2024 - 23:09:02 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 8 2024 - 23:30:37 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 8 2024 - 23:30:40 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 8 2024 - 23:30:40 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 0:00:34 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 9 2024 - 0:00:35 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 0:00:36 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 0:09:35 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 9 2024 - 0:09:35 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 0:09:36 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 0:15:40 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 9 2024 - 0:15:41 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 0:15:41 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 0:18:38 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 9 2024 - 0:18:38 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 0:18:39 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 0:22:44 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 9 2024 - 0:22:45 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 0:22:46 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 0:26:10 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 9 2024 - 0:31:28 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 9 2024 - 0:45:26 <--> Error: There is already an active transaction
+	---En la Linea: '52' 
+	---Clase Chatbot\Database\ControladorMaster
+Date: Feb 9 2024 - 0:59:31 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 0:59:31 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 1:00:10 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 1:00:13 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 1:00:43 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 1:00:44 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 1:10:01 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 9 2024 - 1:10:01 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 8 2024 - 21:18:58 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 8 2024 - 21:18:58 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 8 2024 - 21:21:43 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 8 2024 - 21:21:44 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 12 2024 - 18:07:22 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 12 2024 - 18:07:23 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 12 2024 - 18:34:56 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 12 2024 - 18:34:56 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 12 2024 - 19:37:15 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 12 2024 - 19:37:15 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 12 2024 - 19:43:19 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 12 2024 - 19:43:19 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 13 2024 - 20:11:48 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 13 2024 - 20:11:48 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 13 2024 - 20:21:51 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 13 2024 - 20:21:52 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 18:58:08 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 18:58:09 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 18:59:47 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 18:59:47 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '51' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:14:59 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:14:59 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:15:24 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:15:24 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:15:45 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '53' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:15:46 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '53' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:16:04 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '54' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:16:05 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '54' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:16:18 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '54' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:16:19 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '54' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:16:33 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '54' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:16:33 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '54' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:16:51 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '54' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:16:51 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '54' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:17:24 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '53' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:17:24 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '53' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:17:44 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '53' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:17:45 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '53' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:18:25 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '53' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:18:26 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '53' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:20:54 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '53' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:20:54 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '53' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:21:16 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '53' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:21:16 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '53' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:21:49 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:21:50 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:22:10 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:22:10 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:22:39 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:22:40 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:28:17 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '60' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:28:17 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '60' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:30:08 <--> Error: Cannot use object of type OpenAI\Client as array
+	---En la Linea: '79' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:31:31 <--> Error: Undefined constant OpenAI\Client::transporter
+	---En la Linea: '79' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:36:14 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '55' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:36:15 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '55' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:37:43 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '55' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:37:43 <--> Error: Incorrect API key provided: sk-d6wJD***************************************I5Bs. You can find your API key at https://platform.openai.com/account/api-keys.
+	---En la Linea: '55' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:52:50 <--> Error: Object of class OpenAI\Responses\Models\ListResponse could not be converted to string
+	---En la Linea: '72' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 21 2024 - 19:55:55 <--> Error: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+	---En la Linea: '52' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 25 2024 - 19:12:31 <--> Error: Object of class OpenAI\Responses\Completions\CreateResponse could not be converted to string
+	---En la Linea: '69' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 25 2024 - 19:15:35 <--> Error: Object of class OpenAI\Responses\Completions\CreateResponse could not be converted to string
+	---En la Linea: '69' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 25 2024 - 19:19:27 <--> Error: Object of class OpenAI\Responses\Completions\CreateResponse could not be converted to string
+	---En la Linea: '69' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 25 2024 - 19:20:22 <--> Error: Object of class OpenAI\Responses\Completions\CreateResponse could not be converted to string
+	---En la Linea: '69' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 25 2024 - 19:20:29 <--> Error: Object of class OpenAI\Responses\Completions\CreateResponse could not be converted to string
+	---En la Linea: '69' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 25 2024 - 20:48:02 <--> Error: Object of class OpenAI\Responses\Completions\CreateResponse could not be converted to string
+	---En la Linea: '69' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 25 2024 - 20:50:48 <--> Error: Object of class OpenAI\Responses\Completions\CreateResponse could not be converted to string
+	---En la Linea: '69' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 26 2024 - 11:38:41 <--> Error: Object of class OpenAI\Responses\Completions\CreateResponse could not be converted to string
+	---En la Linea: '69' 
+	---Clase Chatbot\Chatgpt\ChatgptClass
+Date: Feb 26 2024 - 11:39:49 <--> Error: Object of class OpenAI\Responses\Completions\CreateResponse could not be converted to string
+	---En la Linea: '69' 
+	---Clase Chatbot\Chatgpt\ChatgptClass

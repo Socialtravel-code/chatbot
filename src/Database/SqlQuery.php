@@ -136,7 +136,6 @@ class SqlQuery {
     }
 
     public function meta($tabla) {//funcion meta(), se utiliza para obtener los datos de la tabla en cuestion que luego serán mis variables en las sentencias... y también mis claves primarias
-        echo "-----hellegadohastaca----".__FILE__.__LINE__;
         $array = array(); //declaro array donde voy a armar los key a ser utilizados por el resto de los metodos 
         $this->refControladorPersistencia->get_conexion()->beginTransaction(); //abro la conexion para leer la BD
         $consulta = "DESCRIBE"; //con la consulta DESCRIBE $tabla´(éste es el nombre del controlador que obvio coincide con el de la tabla) obtengo la metadata de la BD
@@ -150,7 +149,7 @@ class SqlQuery {
                     $array[$valor] = "campo"; //lleno el array y completo los valores con un string cualquiera para saber q estoy trabajando
                 }
             }
-        }
+        }        
         return $array; //regreso el array*/           
     }
 

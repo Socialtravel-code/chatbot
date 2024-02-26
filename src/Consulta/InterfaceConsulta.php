@@ -1,9 +1,9 @@
 <?php
-namespace Chatbot\Consultas;
+namespace Chatbot\Consulta;
 
 
 
-interface Consulta
+interface InterfaceConsulta
 {
         const   CONSULTA_JSON = "Eres un creador de json. Solo usa los valores que te envio,  en el caso de notar que alguno de 
         los campos está vacio, por favor no inventes ningun valor. tampoco inventes valores si te pido algo de manera 

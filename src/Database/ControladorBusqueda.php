@@ -2,48 +2,44 @@
 namespace Chatbot\Database;
 
 use Chatbot\Database\ControladorPersistencia;
-use Chatbot\Helper\Hepler;//incluyo helper que se encarga de llamar a funciones de ayuda
 use Chatbot\Database\SqlQuery;
 use Chatbot\Database\ControladorMaster;
-use Chatbot\Helper\Helper;
+use Chatbot\Helper\Helper;//incluyo helper que se encarga de llamar a funciones de ayuda
 use Chatbot\LogClass\LogClass;
 
 class ControladorBusqueda
 {
 
     protected $refControladorPersistencia;
+    protected $controladorMaster;
 
     function __construct()
     {
         $this->refControladorPersistencia = new ControladorPersistencia();
+        $this->controladorMaster = new ControladorMaster();
         
     }
 
     public function meta($tabla) //incluyo nombre de tabla para realizar consulta
     {
-        
-        $master = new ControladorMaster();    
-        //echo "-----hellegadohastaca----".__FILE__.__LINE__."</br>";     
-        return $master->meta($tabla); //envio datos
+        return $this->controladorMaster->meta($tabla);    
     }
 
     public function metaCompleto($tabla)
     {
-        $master = new ControladorMaster();
-        return $master->metaCompleto($tabla);
+        return $this->controladorMaster->metaCompleto($tabla); 
     }
 
     public function buscar($tabla)
     { //busca usando la clase SqlQuery
-        $master = new ControladorMaster();
-        return $master->buscar($tabla);
+        
+        return $this->controladorMaster->buscar($tabla); 
     }
 
 
     public function eliminar($id, $tabla)
     { //elimina usando SqlQuery clase
-        $master = new ControladorMaster();
-        $master->eliminar($tabla, $id);
+        $this->controladorMaster->eliminar($tabla, $id);
         return ["eliminado" => "eliminado"];
     }
 

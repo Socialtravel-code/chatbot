@@ -37,14 +37,11 @@ class ControladorMaster
          
         try 
         {   
-            //echo "-----hellegadohastaca----".__FILE__.__LINE__."</br>"; 
-            $this->refControladorPersistencia->get_conexion()->beginTransaction();
-            $this->refControladorPersistencia->get_conexion()->beginTransaction();     
-            //echo "-----hellegadohastaca----".__FILE__.__LINE__."</br>";   
-            $objeto = $this->refControladorPersistencia->ejecutarSentencia(
-                $this->sqlQuery->meta($tabla)
-            );                      
-            return $objeto;
+           // $this->refControladorPersistencia->get_conexion()->beginTransaction();
+            //$objeto = $this->refControladorPersistencia->ejecutarSentencia(
+               return $this->sqlQuery->meta($tabla);
+            //);                   
+            //return $objeto;
         } catch (PDOException $e) { 
             //var_dump($e);
             //echo "-----hellegadohastaca----".__FILE__.__LINE__."</br>";               
